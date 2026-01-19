@@ -1,3 +1,24 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+.plotly-block {
+  margin: 1rem 0;
+
+  .plotly-target {
+    min-height: 200px;
+  }
+
+  .plotly-output {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    margin-top: 0.4rem;
+  }
+
+  &.plotly-error {
+    border: 1px solid var(--lightgray);
+    border-radius: 6px;
+    padding: 0.75rem;
+    background: var(--light);
+  }
+}
