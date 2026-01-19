@@ -1,0 +1,159 @@
+{
+	"meta": {
+		"pluginVersion": "0.3.4",
+		"tldrawVersion": "2.4.3"
+	},
+	"tldraw": {
+		"document": {
+			"store": {
+				"document:document": {
+					"gridSize": 10,
+					"name": "",
+					"meta": {},
+					"id": "document:document",
+					"typeName": "document"
+				},
+				"page:3qj9EtNgqSCW_6knX2K9_": {
+					"meta": {},
+					"id": "page:3qj9EtNgqSCW_6knX2K9_",
+					"name": "Handwritten Note",
+					"index": "a1",
+					"typeName": "page"
+				},
+				"shape:kG18K3BwS3NVNfDc8A-n1": {
+					"x": 693.9127604166667,
+					"y": 720.5186462402344,
+					"rotation": 0,
+					"isLocked": false,
+					"opacity": 1,
+					"meta": {},
+					"id": "shape:kG18K3BwS3NVNfDc8A-n1",
+					"type": "draw",
+					"props": {
+						"segments": [
+							{
+								"type": "free",
+								"points": [
+									{
+										"x": 0,
+										"y": 0,
+										"z": 0.5
+									},
+									{
+										"x": 1.73,
+										"y": 2.94,
+										"z": 0.5
+									},
+									{
+										"x": 12.17,
+										"y": 19.26,
+										"z": 0.5
+									},
+									{
+										"x": 34.72,
+										"y": 53.41,
+										"z": 0.5
+									},
+									{
+										"x": 60.24,
+										"y": 93.98,
+										"z": 0.5
+									},
+									{
+										"x": 80.78,
+										"y": 131.9,
+										"z": 0.5
+									},
+									{
+										"x": 93.21,
+										"y": 157.77,
+										"z": 0.5
+									},
+									{
+										"x": 99.45,
+										"y": 174.37,
+										"z": 0.5
+									},
+									{
+										"x": 104.39,
+										"y": 190.86,
+										"z": 0.5
+									},
+									{
+										"x": 107.61,
+										"y": 202.41,
+										"z": 0.5
+									}
+								]
+							}
+						],
+						"color": "black",
+						"fill": "none",
+						"dash": "draw",
+						"size": "m",
+						"isComplete": true,
+						"isClosed": false,
+						"isPen": false,
+						"scale": 1
+					},
+					"parentId": "page:3qj9EtNgqSCW_6knX2K9_",
+					"index": "a1",
+					"typeName": "shape"
+				}
+			},
+			"schema": {
+				"schemaVersion": 2,
+				"sequences": {
+					"com.tldraw.store": 4,
+					"com.tldraw.asset": 1,
+					"com.tldraw.camera": 1,
+					"com.tldraw.document": 2,
+					"com.tldraw.instance": 25,
+					"com.tldraw.instance_page_state": 5,
+					"com.tldraw.page": 1,
+					"com.tldraw.instance_presence": 5,
+					"com.tldraw.pointer": 1,
+					"com.tldraw.shape": 4,
+					"com.tldraw.asset.bookmark": 2,
+					"com.tldraw.asset.image": 5,
+					"com.tldraw.asset.video": 5,
+					"com.tldraw.shape.group": 0,
+					"com.tldraw.shape.text": 2,
+					"com.tldraw.shape.bookmark": 2,
+					"com.tldraw.shape.draw": 2,
+					"com.tldraw.shape.geo": 9,
+					"com.tldraw.shape.note": 7,
+					"com.tldraw.shape.line": 5,
+					"com.tldraw.shape.frame": 0,
+					"com.tldraw.shape.arrow": 5,
+					"com.tldraw.shape.highlight": 1,
+					"com.tldraw.shape.embed": 4,
+					"com.tldraw.shape.image": 4,
+					"com.tldraw.shape.video": 2
+				}
+			}
+		},
+		"session": {
+			"version": 0,
+			"currentPageId": "page:3qj9EtNgqSCW_6knX2K9_",
+			"exportBackground": true,
+			"isFocusMode": false,
+			"isDebugMode": true,
+			"isToolLocked": false,
+			"isGridMode": true,
+			"pageStates": [
+				{
+					"pageId": "page:3qj9EtNgqSCW_6knX2K9_",
+					"camera": {
+						"x": 0,
+						"y": 0,
+						"z": 0.3
+					},
+					"selectedShapeIds": [],
+					"focusedGroupId": null
+				}
+			]
+		}
+	},
+	"previewUri": "<svg xmlns=\"http://www.w3.org/2000/svg\" direction=\"ltr\" width=\"127.61000000000001\" height=\"222.40999999999997\" viewBox=\"683.9127604166667 710.5186462402344 127.61000000000001 222.40999999999997\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"background-color: transparent;\"><defs/><g transform=\"matrix(1, 0, 0, 1, 693.9128, 720.5186)\" opacity=\"1\"><g transform=\"scale(1)\"><path d=\"M2.5409,-1.6055 T5.1785,2.8724 14.3511,17.5765 30.2507,42.6495 49.3928,74.2555 67.3162,106.0458 81.3172,133.0638 91.4896,155.3632 98.8854,173.9271 105.6294,191.9777 109.2948,201.7772 A1.7997,1.7997 0 0 1 105.9252,203.0428 T102.2325,193.2537 95.4507,175.296 88.0401,156.9382 77.8347,134.8711 63.748,108.0701 45.6895,76.5284 26.3251,45.1862 10.0497,20.3388 0.3711,5.9101 -2.5409,1.6055 A3.0056,3.0056 0 0 1 2.5409,-1.6055 Z\" stroke-linecap=\"round\" fill=\"#f2f2f2\"/></g></g></svg>"
+}
