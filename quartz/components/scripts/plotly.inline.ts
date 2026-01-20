@@ -23,6 +23,7 @@ const plotlyCdnUrls = [
   "https://cdn.jsdelivr.net/npm/plotly.js-dist-min@2.30.0/plotly.min.js",
   "https://unpkg.com/plotly.js-dist-min@2.30.0/plotly.min.js",
 ]
+const localPlotlySrc = "/static/plotly/plotly.min.js"
 let plotlyLoader: Promise<PlotlyType> | null = null
 
 const getPlotlyWindow = (): PlotlyWindow | undefined => {
@@ -46,8 +47,9 @@ function loadPlotly(): Promise<PlotlyType> {
     }
 
     let index = 0
+    const urls = [localPlotlySrc, ...plotlyCdnUrls]
     const tryLoad = () => {
-      const url = plotlyCdnUrls[index]
+      const url = urls[index]
       if (!url) {
         reject(new Error("Plotly failed to load"))
         return
@@ -124,8 +126,9 @@ function ensureRenderPlotly(plotly: PlotlyType) {
     layout: unknown,
     config?: Record<string, unknown>,
   ) => {
+    const baseConfig = { displaylogo: false, responsive: true, displayModeBar: false }
     plotly
-      .newPlot(container, data, layout, { displaylogo: false, responsive: true, ...(config ?? {}) })
+      .newPlot(container, data, layout, { ...baseConfig, ...(config ?? {}) })
       .catch((error: unknown) => {
         console.error(error)
       })

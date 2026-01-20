@@ -4,9 +4,15 @@
 
 .plotly-block {
   margin: 1rem 0;
+  overflow: hidden;
 
   .plotly-target {
     min-height: 200px;
+    width: 100%;
+  }
+
+  .plotly-target .modebar {
+    display: none !important;
   }
 
   .plotly-output {
